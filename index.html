@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 JS Event Playground 🎉</h1>
+
+  <!-- Button Click -->
+  <button id="clickBtn">Click Me</button>
+
+  <!-- Hover Effect Box -->
+  <div id="hoverBox">Hover over me</div>
+
+  <!-- Keypress Area -->
+  <p>Press any key:</p>
+  <div id="keyOutput"></div>
+
+  <!-- Secret Button -->
+  <button id="secretBtn">Double-Click Me!</button>
+
+  <!-- Change Button -->
+  <button id="changeBtn">Change Me</button>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img id="galleryImg" src="https://placekitten.com/300/200" alt="Gallery Image" />
+    <button onclick="prevImage()">⬅️</button>
+    <button onclick="nextImage()">➡️</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tabBtn" onclick="showTab('tab1')">Tab 1</button>
+    <button class="tabBtn" onclick="showTab('tab2')">Tab 2</button>
+    <div id="tab1" class="tabContent">Content for Tab 1</div>
+    <div id="tab2" class="tabContent" style="display:none;">Content for Tab 2</div>
+  </div>
+
+  <!-- Form Validation -->
+  <form id="signupForm">
+    <h2>Sign Up</h2>
+    <input type="text" id="name" required placeholder="Name" />
+    <input type="email" id="email" required placeholder="Email" />
+    <input type="password" id="password" required placeholder="Password" />
+    <div id="feedback"></div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

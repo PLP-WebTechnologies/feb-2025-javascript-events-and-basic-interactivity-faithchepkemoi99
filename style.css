@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: blue;
+  }
+  
+  #hoverBox {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    line-height: 100px;
+    text-align: center;
+    margin: 10px 0;
+    color: cadetblue;
+  }
+  
+  .gallery {
+    margin: 20px 0;
+  }
+  
+  .tabs {
+    margin: 20px 0;
+  }
+  
+  .tabContent {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  #feedback {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  
